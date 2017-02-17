@@ -1,0 +1,993 @@
+@font-face {
+    font-family: 'UbuntuR';
+    src: url('fonts/UbuntuR.eot');
+    src: url('fonts/UbuntuR.eot') format('embedded-opentype'),
+         url('fonts/UbuntuR.woff2') format('woff2'),
+         url('fonts/UbuntuR.woff') format('woff'),
+         url('fonts/UbuntuR.ttf') format('truetype'),
+         url('fonts/UbuntuR.svg#UbuntuR') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuM';
+    src: url('fonts/UbuntuM.eot');
+    src: url('fonts/UbuntuM.eot') format('embedded-opentype'),
+         url('fonts/UbuntuM.woff2') format('woff2'),
+         url('fonts/UbuntuM.woff') format('woff'),
+         url('fonts/UbuntuM.ttf') format('truetype'),
+         url('fonts/UbuntuM.svg#UbuntuM') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuB';
+    src: url('fonts/UbuntuB.eot');
+    src: url('fonts/UbuntuB.eot') format('embedded-opentype'),
+         url('fonts/UbuntuB.woff2') format('woff2'),
+         url('fonts/UbuntuB.woff') format('woff'),
+         url('fonts/UbuntuB.ttf') format('truetype'),
+         url('fonts/UbuntuB.svg#UbuntuB') format('svg');
+}
+
+
+
+
+section#main{
+padding-top:20px;	
+height: 1100px;
+background:url(../img/main-bg.jpg) no-repeat center center;
+}
+.phone h3{
+color:#fff;
+font-family:'UbuntuM' ;
+}
+.phone p{
+color:#fff;
+font-family: 'UbuntuR';
+}
+.social img{
+	width:40px;
+}
+.social{
+padding-top: 9px;
+margin-left:-23px;	
+}
+.header h1{
+	color:#fff;
+	font-family:'UbuntuB';
+	padding-top:260px;
+	padding-bottom: 260px;
+	text-transform: uppercase;
+}
+.header-form h2{
+color:#a60436;
+font-family:'UbuntuM';
+padding-bottom:17px;
+}
+.main-form{
+background-color:rgba(255,255,255,0.47);	/*Прозрачность прямоугольника*/
+padding-bottom: 30px;
+width:1170px;
+height:165px;
+margin-right:170px;
+}
+.main-form input{
+width:250px;
+padding:10px;
+border-radius:5px;
+margin:0;
+}
+.main-form .name{
+left:30px;	
+}
+.main-form .phone1{
+margin:0;
+left:17px;	
+}
+.main-btn{
+	background-color:#a60436;
+	border:none;
+	border-bottom:3px solid #4C0000;
+	border-radius:5px;
+	padding:15px 37px;
+	margin-left:-10px;
+	margin-top:-2px;
+}
+.main-form button{
+color:#fff;	
+font-family:'UbuntuM';
+}
+.main-btn:hover{
+	background-color:#BE1C4E;
+	border-bottom:1px solid #4C0000;
+	margin-top:2px;
+}
+.main-form button:hover{
+	color:#2F0928;
+}
+input{
+	font-family:'UbuntuM';
+	color:#000;
+	margin-left:44px;
+}
+input:focus{
+	color:#BE1C4E;
+	border:2px solid #000;
+}
+input:hover{
+border:2px solid #000;	
+}
+/*=====================    ЯЙЦА    ========================================*/
+section#eggs{
+	padding-top:30px;
+}
+.header-eggs h2{
+	color:#363636;
+font-family:'UbuntuB';	
+}
+.icons img{
+	width:100px;
+}
+.icons{
+	margin-top:40px;
+}
+.icons h4{
+font-family:'UbuntuM';
+color:#A80435;	
+}
+/*=====================    Цены    ========================================*/
+section#price{
+margin-bottom:50px ;	
+}
+.header{
+margin-bottom:50px ;  /*Снаружи отступ/ padding-Внутри*/
+}
+.card{
+	border:4px solid #A80435;
+	padding-bottom:15px;
+	height:445px;
+	width:260px;
+	border-radius:5px;
+}
+.card:hover{
+	border:5px solid #7B0031;
+}
+.header h2,h3{
+	font-family:'UbuntuB';
+	color:#393939;
+}
+.card h4{
+	font-family:'UbuntuM';
+	color:#393939;
+}
+ul li{
+font-family:'UbuntuR';
+	color:#393939;
+}
+.button-price{
+	background-color:#A60436;
+	border:none;
+	border-bottom:2px solid #4C0000;
+	border-radius:4px;
+	padding:5px 20px;
+	}
+.price-btm button{
+	color:#DEDEDE;	
+font-family:'UbuntuM';
+}
+.price-btm button:hover{
+	color:#FFFFFF;
+}
+.button-price:hover{
+background-color:#BE1C4E;
+border-bottom:1px solid #4C0000;
+margin-top:2px;	
+}
+/*=====================    Подвал    ========================================*/
+section#podval{
+padding:100px	
+
+}
+.input1 input{
+border:2px solid #3B3B3B;
+border-radius:4px;
+width:230px;
+height:42px;
+}
+.input1 input{
+	font-family:'UbuntuB';
+	color:#000;
+
+	}
+.input1 input:focus{
+	color:#BE1C4E;
+	border:3px solid #000;
+}
+.input1 input:hover{
+border:3px solid #000;	
+}
+.input1 h4{
+	font-family:UbuntuM;
+	color:#3B3B3B
+}
+.nomer{
+	margin-top:-110px;
+	margin-bottom:20px;
+	margin-left:-115px;
+}
+.i1{
+position:absolute;
+left:200px;
+padding:0px;
+text-align:left;
+}
+.i1 input{
+margin-left:-6px;	
+}
+.i2{
+position:absolute;
+left:450px;	
+padding:0px;
+
+}
+.i2 input{
+margin-left:-6px;	
+}
+.i3{
+position:absolute;	
+padding:0px;
+margin-left:-6px;
+right:0px;
+left:705px;	
+}
+.i3 input{
+margin-left:-6px;	
+}
+.price-btm{
+	text-align:left;
+}
+.input1 .but{
+margin-left:850px;
+height:40px;
+width:200px;	
+}
+/*=====================    Адаптив    ========================================*/
+@media(min-width:0px) and (max-width:320px){
+	section#main{
+padding-top:5px;
+height:600px;	
+}
+.logo{
+text-align:center;
+}
+img#logo1{
+	width:70px;
+}
+.social img{
+width:20px;	
+}
+.social{
+	padding-left:8px;
+}
+.logo-revizorro img{
+	width:70px;
+}
+.phone{
+text-align:center;
+}
+.phone h3{
+font-size:19px;	
+}
+.header h1{
+font-size:20px;	
+padding-top:0px;
+padding-bottom:0px;
+}
+.header-form h2{
+	font-size:15px;
+margin-bottom:-20px;
+margin-top:15px;
+}
+.main-form input{
+padding:2px;
+width:150px;
+margin-left:-3px;
+margin-top:5px;
+margin-bottom:-5px;
+}
+.main-form .name{
+margin-left:-57px;
+margin-bottom:2px;	
+}
+.main-form .phone1{
+margin-left:-33px;
+margin-bottom:3px;	
+}
+.main-form button{
+width:155px;	
+padding:5px;
+margin-top:7px;  
+margin-left:-2px;
+}
+.main-form button:hover{
+margin-top:6px;	
+}
+.main-form{
+width:170px;
+height:190px;
+margin-left:6px;
+}
+.header-eggs h2{
+	font-size:17px;
+	color:#555555;
+}
+.icons img{
+width:40px;	
+margin-right:5px;
+}
+.icons h4{
+font-size:10px;
+}
+.icons .ic{
+right:10px;	
+}
+.icons .ic1{
+left:10px;
+}
+.header h2{
+font-size:19px;
+margin-top:60px;
+margin-bottom:-20px;	
+}
+.card{
+	margin-top:5px;
+	height:350px;
+	width:170px;
+	margin-left:-10px;
+}
+.price-btm img{
+width:160px;	
+}
+.price-btm h3{
+font-size:16px;	
+}
+.price-btm h4{
+font-size:12px;	
+}
+.card ul li{
+font-size:11px;	
+}
+.price-btm .button-price{
+padding:4px;
+width:150px;	
+margin-top:15px;
+}
+.price-btm .bp{
+margin-top:8px;	
+}
+.nomer h4{
+font-size:19px;	
+width:170px;
+margin-bottom:5px;
+}
+.price-btm input{
+	margin-top:5px;
+	width:170px;
+}
+.price-btm .i1{
+margin-left:-188px;	
+}
+.price-btm .i2{
+margin-left:-439px;
+margin-top:50px;
+}
+.price-btm .i3{
+margin-top:100px;	
+margin-left:-694px;	
+}
+.price-btm .but{
+margin-left:-94px;
+width:160px;
+margin-top:157px;
+
+
+}
+
+}
+@media(min-width:321px) and (max-width:480px){
+section#main{
+padding-top:5px;
+height:600px;	
+}
+.logo{
+text-align:left;
+margin-left:8px;
+margin-right:-8px;
+}
+img#logo1{
+	width:115px;
+}
+.social img{
+width:27px;	
+}
+.social{
+	padding-left:8px;
+}
+.logo-revizorro img{
+	width:115px;
+}
+.logo-revizorro{
+text-align:right;
+}
+.phone{
+text-align:center;
+}
+.phone h3{
+
+font-size:19px;
+}
+.header h1{
+font-size:20px;	
+padding-top:0px;
+padding-bottom:0px;
+}
+.header-form h2{
+	font-size:15px;
+margin-bottom:-20px;
+margin-top:15px;
+}
+.main-form input{
+padding:2px;
+width:110px;
+margin-left:-3px;
+margin-top:5px;
+margin-bottom:-5px;
+}
+.main-form .name{
+margin-left:10px;
+margin-bottom:2px;
+padding:0;	
+}
+.main-form .phone1{
+margin-left:10px;
+margin-bottom:3px;
+padding:0;	
+}
+.main-form .mail{
+margin-left:10px;
+padding:0;	
+}
+.main-form button{
+width:120px;	
+padding:5px;
+margin:0px;  
+}
+.main-form .but-m{
+padding:0px;
+left:100px;	
+}
+.main-form button:hover{
+margin-top:6px;	
+}
+.main-form{
+width:467px;
+height:190px;
+margin-left:6px;
+margin-right:px;
+}
+.main-formP{
+margin-top:20px;
+}
+.header-eggs h2{
+	font-size:17px;
+	color:#555555;
+}
+.icons img{
+width:49px;	
+margin-right:5px;
+}
+.icons h4{
+font-size:11px;
+}
+.icons .ic{
+right:10px;	
+}
+.icons .ic1{
+left:10px;
+}
+.header h2{
+font-size:19px;
+margin-top:60px;
+margin-bottom:-20px;	
+}
+.card{
+	margin-top:5px;
+	height:350px;
+	width:170px;
+	margin-left:-10px;
+}
+.price-btm{
+margin-left:20px;	
+}
+.container{
+min-width:370px;
+}
+.price-btm .col-xs-12{
+width:50%;	
+}
+.price-btm img{
+width:160px;	
+}
+.price-btm h3{
+font-size:16px;	
+}
+.price-btm h4{
+font-size:12px;	
+}
+.card ul li{
+font-size:11px;	
+}
+.price-btm .button-price{
+padding:4px;
+width:150px;	
+margin-top:15px;
+}
+.price-btm .bp{
+margin-top:8px;	
+}
+.nomer h4{
+font-size:19px;	
+width:170px;
+margin-bottom:5px;
+margin-left:123px;
+}
+.price-btm input{
+	margin-top:5px;
+	width:170px;
+}
+.price-btm .i1{
+margin-left:-100px;	
+}
+.price-btm .i2{
+margin-left:-350px;
+margin-top:50px;
+}
+.price-btm .i3{
+margin-top:100px;	
+margin-left:-605px;	
+}
+.price-btm .but{
+margin-left:-10px;
+width:160px;
+margin-top:157px;
+}
+.input1{
+margin-left:30px;	
+}
+.input1 input{
+margin-left:50px;	
+}
+
+}
+@media (min-width:481px) and (max-width:768px){
+section#main{
+padding-top:5px;
+height:600px;	
+}
+.logo{
+text-align:left;
+}
+img#logo1{
+	width:150px;
+}
+.social img{
+width:30px;	
+}
+.social{
+	padding-left:8px;
+}
+.logo-revizorro img{
+	width:150px;
+}
+.logo-revizorro{
+text-align:right;	
+}
+.phone{
+	margin-top:5px;
+text-align:right;
+}
+.phone h3{
+font-size:23px;	
+}
+.header h1{
+font-size:25px;	
+padding-top:0px;
+padding-bottom:0px;
+}
+.header-form h2{
+	font-size:25px;
+margin-bottom:-20px;
+margin-top:20px;
+}
+.main-form input{
+padding:4px;
+width:150px;
+margin:0px;
+}
+.main-form .name{
+position:absolute;	
+margin:0px;
+}
+.main-form .col-xs-3{
+width:5%;	
+}
+.main-form .phone1{
+position:absolute;
+margin-left:0px;
+left:200px;	
+}
+.main-form .mail{
+position:absolute;	
+left:370px;
+}
+.main-formP{
+margin-top:60px;
+}
+.main-form button{
+width:155px;	
+padding:5px;
+margin-top:0px;  
+margin-left:543px;
+}
+.main-form button:hover{
+margin-top:6px;	
+}
+.main-form{
+width:730px;
+height:190px;
+margin-left:10px;
+}
+.header-eggs h2{
+	font-size:17px;
+	color:#555555;
+}
+.icons img{
+width:49px;	
+margin-right:5px;
+}
+.icons h4{
+font-size:11px;
+}
+.icons .ic{
+right:10px;	
+}
+.icons .ic1{
+left:10px;
+}
+.header h2{
+font-size:19px;
+margin-top:60px;
+margin-bottom:-20px;	
+}
+.card{
+	margin-top:5px;
+	height:350px;
+	width:170px;
+	margin-left:-10px;
+}
+.container{
+min-width:663px;	
+}
+.price-btm .col-xs-12{
+width:25%;	
+}
+.price-btm img{
+width:160px;	
+}
+.price-btm h3{
+font-size:16px;	
+}
+.price-btm h4{
+font-size:12px;	
+}
+.card ul li{
+font-size:11px;	
+}
+.price-btm .button-price{
+padding:4px;
+width:150px;	
+margin-top:15px;
+}
+.price-btm .bp{
+margin-top:8px;	
+}
+.nomer h4{
+font-size:20px;	
+width:768px;
+margin-bottom:5px;
+margin-left:10px;
+}
+.price-btm input{
+	margin-top:5px;
+	width:170px;
+
+}
+.price-btm .i1{
+margin-left:-173px;	
+}
+.price-btm .i2{
+margin-left:-233px;
+margin-top:0px;
+}
+.price-btm .i3{
+margin-top:0px;	
+margin-left:-298px;	
+}
+.price-btm .but{
+margin-left:492px;
+width:160px;
+margin-top:6px;
+}
+
+}
+@media(min-width:769px) and (max-width:992px){
+section#main{
+padding-top:20px;	
+height: 1100px;
+background:url(../img/main-bg.jpg) no-repeat center center;
+
+}
+.phone h3{
+color:#fff;
+font-family:'UbuntuM' ;
+}
+.phone p{
+color:#fff;
+font-family: 'UbuntuR';
+}
+.social img{
+	width:35px;
+}
+.social{
+padding-top: 9px;
+margin-left:-10px;	
+}
+.header h1{
+	color:#fff;
+	font-family:'UbuntuB';
+	padding-top:260px;
+	padding-bottom: 260px;
+	text-transform: uppercase;
+}
+.header-form h2{
+color:#a60436;
+font-family:'UbuntuM';
+padding-bottom:17px;
+}
+.main-form{
+background-color:rgba(255,255,255,0.47);	/*Прозрачность прямоугольника*/
+padding-bottom: 30px;
+width:968px;
+height:165px;
+}
+.main-form input{
+width:225px;
+padding:10px;
+border-radius:5px;
+margin:0;
+}
+.main-form .name{
+left:30px;	
+}
+.main-form .phone1{
+margin:0;
+left:17px;	
+}
+.main-form .mail{
+left:7px;	
+}
+.main-btn{
+	background-color:#a60436;
+	border:none;
+	border-bottom:3px solid #4C0000;
+	border-radius:5px;
+	padding:15px 37px;
+	margin-left:-10px;
+	margin-top:-2px;
+}
+.main-form button{
+color:#fff;	
+font-family:'UbuntuM';
+}
+.main-btn:hover{
+	background-color:#BE1C4E;
+	border-bottom:1px solid #4C0000;
+	margin-top:2px;
+}
+.main-form button:hover{
+	color:#2F0928;
+}
+input{
+	font-family:'UbuntuM';
+	color:#000;
+	margin-left:44px;
+}
+input:focus{
+	color:#BE1C4E;
+	border:2px solid #000;
+}
+input:hover{
+border:2px solid #000;	
+}
+/*=====================    ЯЙЦА    ========================================*/
+section#eggs{
+	padding-top:30px;
+}
+.header-eggs h2{
+	color:#363636;
+font-family:'UbuntuB';	
+}
+.icons img{
+	width:100px;
+}
+.icons{
+	margin-top:40px;
+}
+.icons h4{
+font-family:'UbuntuM';
+color:#A80435;	
+}
+/*=====================    Цены    ========================================*/
+section#price{
+margin-bottom:50px ;	
+}
+.header{
+margin-bottom:50px ;  /*Снаружи отступ/ padding-Внутри*/
+}
+.card img{
+width:210px;	
+}
+.card{
+	border:4px solid #A80435;
+	padding-bottom:15px;
+	height:445px;
+	width:230px;
+	border-radius:5px;
+	margin-left:-9px;
+}
+.card:hover{
+	border:5px solid #7B0031;
+}
+.header h2,h3{
+	font-family:'UbuntuB';
+	color:#393939;
+}
+.card h4{
+	font-family:'UbuntuM';
+	color:#393939;
+}
+ul li{
+font-family:'UbuntuR';
+	color:#393939;
+}
+.button-price{
+	background-color:#A60436;
+	border:none;
+	border-bottom:2px solid #4C0000;
+	border-radius:4px;
+	padding:5px 20px;
+	}
+.price-btm button{
+	color:#DEDEDE;	
+font-family:'UbuntuM';
+}
+.price-btm button:hover{
+	color:#FFFFFF;
+}
+.button-price:hover{
+background-color:#BE1C4E;
+border-bottom:1px solid #4C0000;
+margin-top:2px;	
+}
+/*=====================    Подвал    ========================================*/
+section#podval{
+padding:100px	
+
+}
+.input1 input{
+border:2px solid #3B3B3B;
+border-radius:4px;
+width:230px;
+height:42px;
+}
+.input1 input{
+	font-family:'UbuntuB';
+	color:#000;
+
+	}
+.input1 input:focus{
+	color:#BE1C4E;
+	border:3px solid #000;
+}
+.input1 input:hover{
+border:3px solid #000;	
+}
+.input1 h4{
+	font-family:UbuntuM;
+	color:#3B3B3B
+}
+.nomer{
+	margin-top:-110px;
+	margin-bottom:20px;
+	margin-left:-115px;
+}
+.i1{
+position:absolute;
+left:50px;
+padding:0px;
+text-align:left;
+}
+.i1 input{
+margin-left:-6px;	
+}
+.i2{
+position:absolute;
+left:300px;	
+padding:0px;
+
+}
+.i2 input{
+margin-left:-6px;	
+}
+.i3{
+position:absolute;	
+padding:0px;
+margin-left:-6px;
+right:0px;
+left:555px;	
+}
+.i3 input{
+margin-left:-6px;	
+}
+.price-btm{
+	text-align:left;
+}
+.input1 .but{
+margin-left:690px;
+height:40px;
+width:180px;	
+}
+
+}
+
+/*----------------      MODAL    ----------------*/
+.modal-modal{
+left:5px;	
+}
+.modal-modal input{
+width:130px;
+margin:0;
+border:1px solid #000;
+border-radius:5px;	
+}
+.modal-modal input:hover{
+border:3px solid #000;
+margin-bottom:-2px;
+margin-top:-2px;
+}
+.modal-content{
+background-color: #C8C8C8;	
+}
+/*==================      Karusel     ===========================*/
+.item{
+	background: #333;
+	text-align: center;
+	height:300px !important;
+}
+.carousel{
+margin-top:20px;	
+}
+section#feedback{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.carousel-control .left{
+background-image:none;
+}
